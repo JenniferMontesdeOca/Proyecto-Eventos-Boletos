@@ -1,0 +1,26 @@
+# Node
+node_modules
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# Coverage
+coverage
+lcov-report
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode
+.idea

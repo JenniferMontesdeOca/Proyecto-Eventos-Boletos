@@ -1,0 +1,1 @@
+INSERT INTO categorias (nombre) VALUES ('Música'), ('Conferencias'), ('Deportes') ON CONFLICT DO NOTHING;
