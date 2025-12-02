@@ -64,3 +64,35 @@ CREATE TABLE transacciones (
     fecha TIMESTAMP DEFAULT NOW()
 );
 
+
+-- =============================
+-- USUARIO DE PRUEBA
+-- =============================
+INSERT INTO usuarios (nombre, email, password_hash, rol_id)
+VALUES ('Tester', 'test@example.com', '$2a$10$HpP8H0FqNwBFmF1Ng9F77O9jqyxJyF9tBG6KaIpk4YrLyUzi5PDJm', 1);
+-- password real = "123456"
+
+-- =============================
+-- CATEGORÍA
+-- =============================
+INSERT INTO categorias (nombre)
+VALUES ('Conciertos');
+
+-- =============================
+-- EVENTO
+-- =============================
+INSERT INTO eventos (
+    nombre, descripcion, fecha, capacidad_total, boletos_disponibles,
+    categoria_id, precio_base, localidad_principal, organizador_id
+)
+VALUES (
+    'Evento de prueba', 'evento CI', CURRENT_DATE, 100, 100,
+    1, 150.00, 'General', 1
+);
+
+-- =============================
+-- LOCALIDAD
+-- =============================
+INSERT INTO localidades_evento (evento_id, nombre, precio, capacidad, boletos_disponibles)
+VALUES (1, 'General', 150.00, 100, 100);
+
