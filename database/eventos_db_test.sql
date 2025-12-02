@@ -25,8 +25,10 @@ CREATE TABLE eventos (
     precio_base NUMERIC(10,2),
     localidad_principal VARCHAR(255),
     organizador_id INT REFERENCES usuarios(id) ON DELETE CASCADE,
-    fecha_creacion TIMESTAMP DEFAULT NOW()
+    fecha_creacion TIMESTAMP DEFAULT NOW(),
+    activo BOOLEAN NOT NULL DEFAULT TRUE
 );
+
 
 CREATE TABLE imagenes_evento (
     id SERIAL PRIMARY KEY,
