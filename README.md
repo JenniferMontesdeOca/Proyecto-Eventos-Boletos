@@ -131,6 +131,6 @@ README.md
 🧰 10. Problemas communes
 | Problema                                       | Solución                                                                |
 | ---------------------------------------------- | ----------------------------------------------------------------------- |
-| *database “eventosdbtest” does not exist*      | Crear DB con `CREATE DATABASE eventosdbtest;`                           |
-| *password authentication failed*               | Revisar `.env` y credenciales                                           |
-| *Cannot use import statement outside a module* | Ya está resuelto mediante ejecución ESM con `--experimental-vm-modules` |
+| *database “eventosdbtest” does not exist*      | Crear DB con CREATE DATABASE eventosdbtest;                           |
+| *password authentication failed*               | Revisar .env y credenciales                                           |
+
