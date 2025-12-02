@@ -24,12 +24,11 @@ Esta guía explica cómo instalar y ejecutar el backend del sistema de eventos y
 Asegúrate de tener instalado:
 
 - Node.js 18+
-- 
 - npm 9+
 
 - PostgreSQL 14+
 
--Git
+- Git
 
 - Windows / Linux / macOS
 
