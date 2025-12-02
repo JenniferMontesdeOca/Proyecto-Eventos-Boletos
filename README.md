@@ -56,6 +56,7 @@ Dentro de la carpeta backend/ crea tu archivo .env:
 	cp .env.example .env
 
 Editar .env según tu entorno local:
+
 	PORT=5000
 	DATABASE_URL=postgres://postgres:123@localhost:5432/eventosdb
 	DATABASE_URL_TEST=postgres://postgres:123@localhost:5432/eventosdbtest
