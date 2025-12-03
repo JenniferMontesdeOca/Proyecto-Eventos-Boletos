@@ -1,6 +1,9 @@
 # Sistema de Gestión de Eventos y Boletos 🎟️
 ![CI](https://github.com/JenniferMontesdeOca/Proyecto-Eventos-Boletos/actions/workflows/ci.yml/badge.svg)
 
+Video explicativo 
+https://drive.google.com/file/d/1NXDuMvVcBNDmK-VZ_x9-CF9B6tChgwBu/view?usp=sharing
+
 
 Proyecto fullstack para la gestión de eventos y compra de boletos, con:
 
